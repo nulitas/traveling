@@ -159,7 +159,7 @@ export default function Category() {
               <span className="text-sm font-medium text-gray-900">
                 {category.name}
               </span>
-              <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+              <div className="flex items-center gap-2 transition-opacity">
                 <button
                   onClick={() => setEditingCategory(category)}
                   className="p-1 text-gray-400 hover:text-gray-600 transition-colors rounded-full hover:bg-gray-100"
